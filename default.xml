@@ -2,6 +2,9 @@
 <manifest>
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
+    <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />         
   <remote  name="github"
            fetch="https://github.com" />
   <default revision="refs/tags/android-5.1.1_r37"
@@ -282,7 +285,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  ///// <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -292,7 +295,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  /////<project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -515,6 +518,8 @@
   <project path="vendor/samsung/kyleproxx" name="sostk/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="kernel/samsung/kyleproxx" name="Sandpox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
   <project path="external/ffmpeg" name="sostk/android_external_ffmpeg" remote="github" revision="cm-12.1" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
