@@ -438,5 +438,4 @@
   <project path="device/samsung/kyleprods" name="sostk/aosp_device_samsung_kyleprods" remote="github" revision="master" />
   <project path="vendor/samsung/kyleproxx" name="sostk/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="kernel/samsung/kyleproxx" name="Sandpox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-11.0" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 </manifest>
