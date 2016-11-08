@@ -496,7 +496,7 @@
    <!-- KYLEPROXX -->
    <!-- KYLEPROXX -->
   <project path="device/samsung/kyleprods" name="sostk/aosp_kyleprods" remote="github" revision="master" />
-  <project path="device/samsung/kyleprods" name="Samsung-KYLEPROXX/android_device_samsung_kyleprods" remote="github" revision="cm-12.1" />
+  <!--project path="device/samsung/kyleprods" name="Samsung-KYLEPROXX/android_device_samsung_kyleprods" remote="github" revision="cm-12.1" /-->
   <project path="kernel/samsung/kyleproxx" name="Samsung-KYLEPROXX/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/kyleproxx" name="Samsung-KYLEPROXX/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
  <!-- CYANOGEN REPO -->
